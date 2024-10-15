@@ -1,0 +1,68 @@
+@font-face {
+  font-family: "RussianRail";
+  src: url("RussianRail G Pro Regular_0.otf") format(opentype);
+}
+
+body {
+  background: #eae7dc;
+}
+
+h1 {
+  font-size: 32px;
+  font-family: "RussianRail";
+  color: #515151;
+  margin: 5px;
+}
+
+h2 {
+  font-size: 24px;
+  font-family: "RussianRail";
+  color: #515151;
+  margin: 8px;
+}
+
+p {
+  font-size: 18px;
+  font-family: "RussianRail";
+  color: #f0c090;
+  margin: 12px;
+}
+
+ul,
+ol {
+  font-size: 18px;
+  font-family: "RussianRail";
+  color: #f0c090;
+}
+
+a {
+  font-size: 24px;
+  font-family: "RussianRail";
+  margin: 16px;
+}
+
+img {
+  border-radius: 24px;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  margin: 5%;
+}
+
+.content-left {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  background: #e98276;
+  padding: 16px;
+  border-radius: 36px;
+}
+
+.content-right {
+  display: flex;
+  background: #e98276;
+  border-radius: 36px;
+  padding: 24px;
+}
