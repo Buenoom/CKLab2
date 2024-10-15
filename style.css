@@ -41,7 +41,8 @@ a {
   margin: 16px;
 }
 
-img {
+.photo {
+  width: 400px;
   border-radius: 24px;
 }
 
